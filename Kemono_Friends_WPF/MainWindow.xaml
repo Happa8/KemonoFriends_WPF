@@ -11,7 +11,7 @@
 		<Image x:Name="image1" HorizontalAlignment="Left" Height="215" Margin="40,0,0,0" VerticalAlignment="Top" Width="315" Source="Resources/吹き出し.png"/>
 		<Label x:Name="label" Content="君が得意なもの" HorizontalAlignment="Left" Height="30" Margin="10,270,0,0" VerticalAlignment="Top" Width="85" VerticalContentAlignment="Center"/>
 		<TextBox x:Name="specialtyTextbox" HorizontalAlignment="Left" Height="30" Margin="100,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"  VerticalContentAlignment="Center" KeyDown="KeyDownHandler" />
-		<TextBox x:Name="Hukidashi" HorizontalAlignment="Left" Height="80" Margin="85,50,0,0" TextWrapping="Wrap" Text="わーい&#xD;&#xA;すごーい&#xD;&#xA;たのしー！！" VerticalAlignment="Top" Width="200" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" VerticalContentAlignment="Center" TextAlignment="Center"/>
+		<TextBox x:Name="Hukidashi" HorizontalAlignment="Left" Height="80" Margin="85,50,0,0" TextWrapping="Wrap" Text="わーい&#xD;&#xA;すごーい&#xD;&#xA;たのしー！！" VerticalAlignment="Top" Width="200" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" VerticalContentAlignment="Center" TextAlignment="Center" IsReadOnly="True"/>
 
 	</Grid>
 </Window>
